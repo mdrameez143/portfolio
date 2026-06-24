@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohammad Rameez | Contact</title>
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Get in touch with Mohammad Rameez. Reach out via email, phone, LinkedIn, or send a direct message through the online contact form.">
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar" id="main-nav">
+    <div class="container nav-container">
+      <a href="index.html" class="logo" id="nav-logo">
+        <i class="fa-solid fa-code"></i> Rameez.
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html" id="link-home">Home</a></li>
+        <li><a href="skills.html" id="link-skills">Skills</a></li>
+        <li><a href="projects.html" id="link-projects">Projects</a></li>
+        <li><a href="experience.html" id="link-experience">Experience</a></li>
+        <li><a href="education.html" id="link-education">Education</a></li>
+        <li><a href="contact.html" id="link-contact">Contact</a></li>
+        <li>
+          <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle dark/light theme">
+            <i class="fa-solid fa-sun"></i>
+          </button>
+        </li>
+      </ul>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Page Banner -->
+  <header class="page-banner" style="background-image: url('assets/experience_banner.png');" id="contact-banner">
+    <div class="container banner-content">
+      <h1 class="banner-title" id="contact-banner-title">Get in Touch</h1>
+      <p class="banner-desc" id="contact-banner-desc">Have a question or want to collaborate? Reach out through any channel or drop a message below.</p>
+    </div>
+  </header>
+
+  <!-- Contact Section Layout -->
+  <main class="main-content">
+    <div class="container">
+      <div class="contact-layout" id="contact-container">
+        
+        <!-- Left Side: Contact Cards -->
+        <div class="contact-info" id="contact-cards-list">
+          
+          <!-- Email Card -->
+          <div class="card contact-card reveal" id="card-email">
+            <div class="contact-icon">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="contact-details">
+              <h4>Email</h4>
+              <p><a href="mailto:mdrameez7245@gmail.com">mdrameez7245@gmail.com</a></p>
+            </div>
+          </div>
+
+          <!-- Phone Card -->
+          <div class="card contact-card reveal" id="card-phone">
+            <div class="contact-icon">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="contact-details">
+              <h4>Phone</h4>
+              <p><a href="tel:+918688859401">+91 8688859401</a></p>
+            </div>
+          </div>
+
+          <!-- Location Card -->
+          <div class="card contact-card reveal" id="card-location">
+            <div class="contact-icon">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="contact-details">
+              <h4>Location</h4>
+              <p>Hyderabad, India</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right Side: Contact Form -->
+        <div class="card contact-form-card reveal" id="contact-form-wrapper">
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" class="form-input" placeholder="John Doe" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" class="form-input" placeholder="john@example.com" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" class="form-input" placeholder="Write your message here..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" id="btn-submit">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+            <div class="form-status" id="form-status"></div>
+          </form>
+        </div>
+
+      </div>
+      <!-- Next Page Button -->
+      <div class="next-page-section reveal" id="next-page-wrapper">
+        <a href="index.html" class="btn btn-primary" id="btn-next-page">Back to Home <i class="fa-solid fa-house"></i></a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p class="footer-text" id="footer-copy">&copy; 2026 Mohammad Rameez. All rights reserved.</p>
+      <div class="footer-socials" id="footer-social-links">
+        <a href="https://github.com/mdrameez143" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/mohammad-rameez-258543324/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="mailto:mdrameez7245@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        <a href="tel:+918688859401" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>

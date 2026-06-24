@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohammad Rameez | Portfolio - Home</title>
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Portfolio of Mohammad Rameez, Computer Science Engineering graduate specializing in Python, SQL, Data Analytics, and Machine Learning.">
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar" id="main-nav">
+    <div class="container nav-container">
+      <a href="index.html" class="logo" id="nav-logo">
+        <i class="fa-solid fa-code"></i> Rameez.
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html" id="link-home">Home</a></li>
+        <li><a href="skills.html" id="link-skills">Skills</a></li>
+        <li><a href="projects.html" id="link-projects">Projects</a></li>
+        <li><a href="experience.html" id="link-experience">Experience</a></li>
+        <li><a href="education.html" id="link-education">Education</a></li>
+        <li><a href="contact.html" id="link-contact">Contact</a></li>
+        <li>
+          <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle dark/light theme">
+            <i class="fa-solid fa-sun"></i>
+          </button>
+        </li>
+      </ul>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container hero-grid">
+      <div class="hero-text reveal active">
+        <h3>Welcome to my Portfolio</h3>
+        <h1 id="hero-title">MOHAMMAD RAMEEZ</h1>
+        <p class="hero-tagline" id="hero-tagline">
+          Computer Science Engineering Graduate specializing in <strong>Python</strong>, <strong>SQL</strong>, <strong>Data Analytics</strong>, and <strong>Machine Learning</strong>.
+        </p>
+        
+        <!-- Social Profiles -->
+        <div class="hero-links" id="hero-socials">
+          <a href="https://github.com/mdrameez143" target="_blank" rel="noopener noreferrer" title="GitHub" id="social-github"><i class="fa-brands fa-github"></i></a>
+          <a href="https://linkedin.com/in/mohammad-rameeez-258543324" target="_blank" rel="noopener noreferrer" title="LinkedIn" id="social-linkedin"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="mailto:mdrameez7245@gmail.com" title="Email" id="social-email"><i class="fa-solid fa-envelope"></i></a>
+          <a href="tel:+918688859401" title="Phone" id="social-phone"><i class="fa-solid fa-phone"></i></a>
+        </div>
+
+        <!-- Call to Actions -->
+        <div class="hero-ctas">
+          <a href="projects.html" class="btn btn-primary" id="btn-view-projects">Explore Projects <i class="fa-solid fa-arrow-right"></i></a>
+          <a href="contact.html" class="btn btn-secondary" id="btn-get-in-touch">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="hero-image-container reveal active">
+        <div class="hero-image-wrapper">
+          <img src="assets/avatar.png" alt="Mohammad Rameez Profile Avatar" class="hero-image" id="profile-img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Summary / Overview Section -->
+  <main class="main-content">
+    <div class="container">
+      <div class="card reveal" id="about-card">
+        <h2 style="font-size: 2.2rem; margin-bottom: 1.5rem; background: var(--gradient-primary); -webkit-background-clip: text; -webkit-text-fill-color: transparent;" id="about-title">Professional Summary</h2>
+        <p style="font-size: 1.15rem; color: var(--text-secondary); line-height: 1.8; margin-bottom: 2rem;" id="about-text">
+          Result-driven Computer Science Engineering graduate with specialized expertise in Python, SQL, Data Analytics, and Machine Learning. Proven track record of leveraging strong problem-solving and communication skills to collaborate within cross-functional teams and deliver scalable solutions. Experienced in transforming raw datasets into high-impact business intelligence dashboards and optimized analytical workflows.
+        </p>
+        
+        <!-- Key Highlights Grid -->
+        <div style="display: grid; grid-template-cols: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem;" id="highlights-grid">
+          <div style="border-top: 3px solid var(--accent-cyan); padding-top: 1rem;">
+            <h4 style="font-size: 1.1rem; margin-bottom: 0.5rem; color: var(--text-primary);"><i class="fa-solid fa-graduation-cap" style="color: var(--accent-cyan); margin-right: 0.5rem;"></i> CSE Graduate</h4>
+            <p style="font-size: 0.9rem; color: var(--text-secondary);">B.Tech degree from Kakatiya University with 8.36 CGPA.</p>
+          </div>
+          <div style="border-top: 3px solid var(--accent-purple); padding-top: 1rem;">
+            <h4 style="font-size: 1.1rem; margin-bottom: 0.5rem; color: var(--text-primary);"><i class="fa-solid fa-chart-pie" style="color: var(--accent-purple); margin-right: 0.5rem;"></i> Data Analyst</h4>
+            <p style="font-size: 0.9rem; color: var(--text-secondary);">Cleaned & mapped data, built Power BI & Tableau dashboards.</p>
+          </div>
+          <div style="border-top: 3px solid var(--accent-indigo); padding-top: 1rem;">
+            <h4 style="font-size: 1.1rem; margin-bottom: 0.5rem; color: var(--text-primary);"><i class="fa-solid fa-brain" style="color: var(--accent-indigo); margin-right: 0.5rem;"></i> ML Enthusiast</h4>
+            <p style="font-size: 0.9rem; color: var(--text-secondary);">Created end-to-end data science models & pipelines.</p>
+          </div>
+          <div style="border-top: 3px solid var(--accent-gold); padding-top: 1rem;">
+            <h4 style="font-size: 1.1rem; margin-bottom: 0.5rem; color: var(--text-primary);"><i class="fa-solid fa-award" style="color: var(--accent-gold); margin-right: 0.5rem;"></i> GATE-DA 2026</h4>
+            <p style="font-size: 0.9rem; color: var(--text-secondary);">Secured elite credentials in Data Science & Artificial Intelligence.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Next Page Button -->
+      <div class="next-page-section reveal" id="next-page-wrapper">
+        <a href="skills.html" class="btn btn-primary" id="btn-next-page">Next Page: Skills <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p class="footer-text" id="footer-copy">&copy; 2026 Mohammad Rameez. All rights reserved.</p>
+      <div class="footer-socials" id="footer-social-links">
+        <a href="https://github.com/mdrameez143" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://linkedin.com/in/mohammad-rameeez-258543324/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="mailto:mdrameez7245@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        <a href="tel:+918688859401" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
